@@ -1,0 +1,57 @@
+/* Selector Elemen (body) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue; /* Format Warna 1:Memakai Nama */
+    color: #334155;             /* Format Warna 2:Memakai code HEX */
+    line-height: 1.6;          
+}
+/* Selector ID (#kartu-profil) */
+#kartu-profil {
+    /* Box Model (Membuat kartu lebar tetap di tengah, margin, padding, border, border-radius) */
+    width: 380px;
+    margin: 40px auto;
+    padding: 24px;
+    border: 2px solid #cbd5e1;
+    border-radius: 12px;
+    background-color: #ffffff;
+}
+/* Selector Grup (h1 dan h3) */
+h1, h3 {
+    text-align: center;        
+}
+h1 {
+    font-size: 1.8rem;          
+    text-transform: uppercase; 
+}
+/* Selector Class (.deskripsi) */
+.deskripsi {
+    font-size: 14px;        
+    text-align: justify;  
+    margin-bottom: 16px;
+}
+/* Memakai display: inline-block untuk menampilkan elemen secara horizontal */
+/* Elemen Inline-Block 1 (.tag) */
+.tag {
+    display: inline-block;
+    background-color: rgba(37, 99, 235, 0.1); /* Format Warna 3: RGBA */
+    color: #2563eb;
+    padding: 4px 10px;
+    margin: 4px 2px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+/* Selector Turunan / Descendant (.aksi) */
+.aksi {
+    text-align: center;
+    margin-top: 20px;
+}
+/* Elemen Inline-Block 2 (tag a di dalam .aksi / Descendant Selector .aksi a) */
+.aksi a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2563eb;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
